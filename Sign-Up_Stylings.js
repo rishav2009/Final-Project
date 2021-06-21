@@ -96,7 +96,7 @@ function validate()
             return false
         }
         
-        if ( fname.length <= 15 )
+        if ( mail.length <= 15 )
         {
             document.getElementById( "mail" ).style.border = "groove red 10px" ;
             document.getElementById( "label4" ).innerHTML = "The E-mail should contain at least 16 characters !!" ;
