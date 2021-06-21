@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Headland+One&display=swap" rel="stylesheet">
+        <style>
+.login{
+    box-shadow: black 10px 10px 10px ;
+    width: 500px;
+    height: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+.login h1{
+    color: blue;
+    font-family: Headland One;
+    font-size: 30px;
+}
+input{
+    width: 70%;
+    height: 30px;
+    margin: 10px 25px;
+    font-size: 15px;
+    font-family: Lobster Two;
+    border-radius: 100px;
+    outline: none;
+    border-bottom: blue 5px solid;
+}
+button{
+    margin-left: 198px;
+    height: 50px;   
+    width: 100px;
+    font-family: Lobster Two;
+    font-size: 25px;
+    background-color: red;
+    margin-top: 60px;
+    border-radius: 60px;
+    border-bottom: rgb(255, 187, 0) 5px solid;
+}
+p{
+    background-color: white;
+    color: grey;
+    font-size: 13px;
+    margin: 2px 25px;
+    font-family: Lobster Two;
+    background-color: rgba(0, 0, 0, 0);
+}
+body{
+    background-image: url(B1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1400px 700px;
+}
+fieldset{
+    border: none;
+    border-top: grey 3px solid;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+#margin{
+    margin-top: 50px;
+}
+        </style>
+    </head>
+    <body>
+        
+            <div class="login">
+                  <fieldset>
+                    <legend> <h1> Login </h1> </legend>
+                </fieldset>
+                <form action="Final_Project_2.html">
+            
+
+            <input type="text"  name="Uname"    placeholder="Username"  required    minlength="6">
+            <p>At least 6 characters</p>
+            <input type="password"  name="pass" placeholder="Password"  required   id="margin">
+            <p>Use upper and lower case letters as well</p>
+            <br><br>
+            <!-- <input type="checkbox" name="accept" style="margin: 40px;"> I accept the Terms & Conditions -->
+            <button type="submit"> Login </button>
+            
+        </form>
+        </div>
+    </body>
+</html>

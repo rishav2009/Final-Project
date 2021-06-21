@@ -1,0 +1,55 @@
+.container{
+    /* border: black 3px solid; */
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.658);
+    padding: 40px;
+    margin: auto;
+    box-shadow: 5px 5px 10px white;
+}
+input, select, button{
+    margin: 0px 25px;
+
+}
+.c1{
+    width: 86%;
+}
+.c2{
+    width: 35%;
+}
+.c1, .c2{
+    padding: 10px;
+    border-radius: 50px;
+    font-family: lobster;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-bottom: blue 5px solid;
+    transition: all 0.5s;
+}
+label{
+    font-family: lobster;
+    font-size: 18px;
+    color: white;
+}
+button{
+    font-family: lobster;
+    font-size: 18px;
+}
+.c1:hover, .c2:hover{
+    background-color: skyblue;
+}
+.c1:focus, .c2:focus{
+    background-color: skyblue ;
+}
+body{
+    background-image: url(B1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1400px, 700px;
+}
+p{
+    font-family: Lobster; 
+    text-align: center ;
+    color: white;
+}
+
+
